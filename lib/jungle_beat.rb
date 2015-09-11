@@ -1,5 +1,5 @@
 require_relative 'linked_list'
-
+require 'pry'
 
 class JungleBeat
   attr_accessor :list
@@ -62,8 +62,5 @@ class JungleBeat
     @list.find(index, number_elements)
   end
 
+binding.pry
 end
-
-# Testing
-# jb = JungleBeat.new("deep dep dep deep")
-# jb.play
